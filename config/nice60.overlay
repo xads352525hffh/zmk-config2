@@ -1,0 +1,20 @@
+/ {
+    compatible = "zmk,keymap";
+
+    keymap {
+        compatible = "zmk,keymap";
+    };
+
+    // Define 10 GPIO keys for 2x5 macropad
+    key0: key_0 { gpios = <&gpio0 2 GPIO_ACTIVE_LOW>; label = "K0"; };
+    key1: key_1 { gpios = <&gpio0 3 GPIO_ACTIVE_LOW>; label = "K1"; };
+    key2: key_2 { gpios = <&gpio0 4 GPIO_ACTIVE_LOW>; label = "K2"; };
+    key3: key_3 { gpios = <&gpio0 5 GPIO_ACTIVE_LOW>; label = "K3"; };
+    key4: key_4 { gpios = <&gpio0 6 GPIO_ACTIVE_LOW>; label = "K4"; };
+
+    key5: key_5 { gpios = <&gpio0 7 GPIO_ACTIVE_LOW>; label = "K5"; };
+    key6: key_6 { gpios = <&gpio0 8 GPIO_ACTIVE_LOW>; label = "K6"; };
+    key7: key_7 { gpios = <&gpio0 9 GPIO_ACTIVE_LOW>; label = "K7"; };
+    key8: key_8 { gpios = <&gpio0 10 GPIO_ACTIVE_LOW>; label = "K8"; };
+    key9: key_9 { gpios = <&gpio0 11 GPIO_ACTIVE_LOW>; label = "K9"; };
+};
