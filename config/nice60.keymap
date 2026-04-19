@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     layouts {
@@ -41,7 +42,7 @@
 
         new_layer_name {
             bindings = <
-&kp ESCAPE  &kp UP_ARROW  &kp TAB  &kp RETURN  &kp 5  &tog 0  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT  &kp 0  &tog 2
+&kp ESCAPE  &kp UP_ARROW  &kp TAB  &kp RETURN  &rgb_ug RGB_TOG  &tog 0  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT  &rgb_ug RGB_HUI  &tog 2
             >;
         };
 
