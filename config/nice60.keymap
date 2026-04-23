@@ -28,7 +28,7 @@
 
         default_layer {
             bindings = <
-&kp HASH  &kp N7  &kp N0  &kp R  &kp P  &mo 1  &kp N0  &kp Q  &kp N1  &kp SPACE  &kp BACKSPACE  &kp C
+&kp HASH  &kp N7  &kp N0  &kp R  &kp P  &mo 1  &kp N0  &kp Q  &kp N1  &kp SPACE  &kp BACKSPACE  &kp B
             >;
         };
 
