@@ -23,12 +23,21 @@
         >;
     };
 
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp U &kp C &kp K &kp SPACE &kp Y &kp O &kp U>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp HASH  &kp N7  &kp N0  &kp R  &kp P  &mo 1  &kp N0  &kp Q  &kp N1  &kp SPACE  &kp BACKSPACE  &bl BL_INC
+&kp HASH  &kp N7  &kp N0  &kp R  &kp P  &mo 1  &kp N0  &kp Q  &kp N1  &kp SPACE  &kp BACKSPACE  &new_macro
             >;
         };
 
