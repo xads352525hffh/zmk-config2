@@ -27,13 +27,13 @@
 
         default_layer {
             bindings = <
-&kp HASH  &kp N7  &kp N0  &kp R  &kp P  &to 1  &kp N0  &kp Q  &kp N1  &kp SPACE  &kp BACKSPACE  &kp C
+&kp HASH  &kp N7  &kp N0  &kp R  &kp P  &tog 1  &kp N0  &kp Q  &kp N1  &kp SPACE  &kp BACKSPACE  &kp C
             >;
         };
 
         new_layer_name {
             bindings = <
-&kp ESCAPE  &kp UP_ARROW  &kp TAB  &kp RETURN  &rgb_ug RGB_TOG  &to 0  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT  &rgb_ug RGB_HUI  &kp C
+&kp ESCAPE  &kp UP_ARROW  &kp TAB  &kp RETURN  &rgb_ug RGB_TOG  &tog 0  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT  &rgb_ug RGB_HUI  &kp C
             >;
         };
     };
