@@ -33,7 +33,7 @@
 
         new_layer_name {
             bindings = <
-&kp ESCAPE  &kp UP_ARROW  &kp TAB  &kp RETURN  &rgb_ug RGB_TOG  &kp C  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT  &rgb_ug RGB_HUI  &kp C
+&kp ESCAPE  &kp UP_ARROW  &kp TAB  &kp RETURN  &rgb_ug RGB_TOG  &kp C  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_SHIFT  &rgb_ug RGB_HUI  &tog 0
             >;
         };
     };
