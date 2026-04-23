@@ -22,15 +22,6 @@
         >;
     };
 
-    macros {
-        instructions: instructions {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LPAR &kp N0 &kp RPAR &kp SPACE &kp H &kp E &kp Y &kp SPACE &kp G &kp R &kp E &kp G &kp COMMA &kp SPACE &kp L &kp O &kp O &kp K &kp S &kp SPACE &kp L &kp I &kp K &kp E &kp SPACE &kp Y &kp O &kp U &kp SPACE &kp D &kp I &kp S &kp C &kp O &kp V &kp E &kp R &kp E &kp D &kp SPACE &kp T &kp H &kp E &kp SPACE &kp H &kp I &kp D &kp D &kp E &kp N &kp SPACE &kp L &kp A &kp Y &kp E &kp R &kp DOT &kp SPACE &kp LS(T) &kp H &kp I &kp S &kp SPACE &kp I &kp S &kp SPACE &kp M &kp E &kp S &kp S &kp A &kp G &kp E &kp SPACE &kp N0 &kp COMMA &kp SPACE &kp P &kp R &kp E &kp S &kp S &kp SPACE &kp A &kp N &kp D &kp SPACE &kp H &kp O &kp L &kp D &kp SPACE &kp O &kp N &kp SPACE &kp STAR &kp SPACE &kp W &kp H &kp I &kp L &kp E &kp SPACE &kp P &kp R &kp E &kp S &kp S &kp I &kp N &kp G &kp SPACE &kp E &kp A &kp C &kp H &kp SPACE &kp K &kp E &kp Y &kp SPACE &kp I &kp N &kp SPACE &kp O &kp R &kp D &kp E &kp R &kp LPAR &kp M &kp E &kp S &kp S &kp A &kp G &kp E &kp SPACE &kp N1 &kp SPACE &kp I &kp S &kp SPACE &kp T &kp O &kp SPACE &kp T &kp H &kp E &kp SPACE &kp R &kp I &kp G &kp H &kp T &kp RPAR &kp SPACE &kp B &kp A &kp I &kp EXCL>;
-            label = "INSTRUCTIONS";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
